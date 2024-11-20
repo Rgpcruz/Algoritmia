@@ -12,9 +12,7 @@ public class ex06 {
         System.out.println("Insira a quantidade consumida (em kg) ");
         double numero2 = in.nextDouble();
 
-        double valor = numero2 * numero1 ;
-
-        System.out.println("A valor a ser pago é: " + valor);
+        System.out.println("A valor a ser pago é: " + (numero2 * numero1));
 
 
     }

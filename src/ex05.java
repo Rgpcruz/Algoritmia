@@ -13,9 +13,16 @@ public class ex05 {
         System.out.println("Insira o preço do produto ");
         double numero2 = in.nextDouble();
 
-        double troco = numero1 - numero2 ;
+        if (numero2 > numero1) {
+            System.out.println("Ainda falta pagar: " + (numero2- numero1));
+        }
+        else if (numero1 == numero2) {
+            System.out.println("Valor certo, Obrigado");
+        }
+        else  {
 
-        System.out.println("A valor troco é: " + troco);
+            System.out.println("A valor troco é: " + (numero1 - numero2));
+        }
 
 
     }
