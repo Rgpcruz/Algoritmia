@@ -1,7 +1,6 @@
 
 import java.util.Scanner;
 
-//Faça um programa que receba 4 valores e retorne o menor entre eles.
 
 public class ex09 {
     public static void main(String[] args) {
@@ -29,3 +28,4 @@ public class ex09 {
         }
     }
 }
+
