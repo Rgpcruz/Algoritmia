@@ -21,9 +21,13 @@ public class ex13 {
 
         switch (codigo) {
             case 001 -> System.out.println("Parafuso");
+
             case 002 -> System.out.println("Porca");
+
             case 003 -> System.out.println("Prego");
+
             default -> System.out.println("Peso");
+
         }
 
     }
