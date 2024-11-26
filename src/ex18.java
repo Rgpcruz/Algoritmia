@@ -15,7 +15,7 @@ public class ex18 {
         System.out.print("Digite a quantidade de numeros que vai introduzir: ");
         int n = in.nextInt();
         for (int i = 0; i < n; i++) {
-            System.out.println("Introduza um numero inteiro maior que 4: ");
+            System.out.println("Introduza o " + (i+1)+  " numero ");
             int num = in.nextInt();
             if (num < 5) {
                 System.out.println("Numero não é inteiro ou maior que 4, introduza um numero valido");
