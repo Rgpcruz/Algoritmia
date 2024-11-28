@@ -13,11 +13,11 @@ public class ex07 {
         String nome = in.nextLine();
         System.out.println("Insira o preço de fábrica");
         double preco = in.nextDouble();
-        double imposto = (preco * 0.45) ;
-        double percentagemRevendedor = (preco * 0.28);
+        double imposto = (preco * .45) ;
+        double percentagemRevendedor = (preco * .18);
         double valorfinal = preco + imposto + percentagemRevendedor ;
 
-        System.out.println("O nome do automovel é: " + nome + " e o preço final é : " + valorfinal);
+        System.out.println("O nome do automovel é: " + nome + "Preço final: " + valorfinal);
 
 
     }
